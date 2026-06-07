@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(135deg, #474646, #1f1818 );
+    color:white;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 20px;
+}
+header{
+    text-align: center;
+    margin-top:48px;
+    color:white;
+}
+header h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.planet
