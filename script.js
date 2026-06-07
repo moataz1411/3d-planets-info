@@ -52,5 +52,7 @@ animate();
 }
 createModel("container3d", "planets/mars.glb", 0.6, 5);
 createModel("container3d2", "planets/jupiter.glb", 0.009,4);
-createModel("container3d3", "planets/saturn1.glb.glb", 0.01,4);
+createModel("container3d3", "planets/saturn.glb", 0.01,4);
+createModel("container3d4", "planets/uranus.glb",0.00004,4)
+createModel("container3d5", "planets/blackhole.glb",0.002,4)
 
