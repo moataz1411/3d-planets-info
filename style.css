@@ -45,3 +45,20 @@ header h1{
     width: 100% !important;
     height: 100% !important;
 }
+.container{
+    margin:40px auto;
+    padding:20px 50px;
+    width: fit-content;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+}
+.container:hover{
+    transform: scale(1.05);
+}
+.container h1{
+    margin:0;
+    font-size:40px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
