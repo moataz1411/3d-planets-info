@@ -26,7 +26,7 @@ const controls = new OrbitControls(camera,renderer.domElement);
 controls.autoRotate=true;
 controls.autoRotateSpeed=3;
 controls.enableZoom=false;
-controls.enaplePin=false;
+controls.enaplePan=false;
 controls.addEventListener("start", ()=>{
 controls.autoRotate=false;
 });
@@ -55,4 +55,17 @@ createModel("container3d2", "planets/jupiter.glb", 0.009,4);
 createModel("container3d3", "planets/saturn.glb", 0.01,4);
 createModel("container3d4", "planets/uranus.glb",0.00004,4)
 createModel("container3d5", "planets/blackhole.glb",0.002,4)
+const music = document.getElementById("backmusic");
+const musicbutton=document.getElementById("musicbutton");
+let playing=false;
+musicbutton.addEventListener("click",()=>{
+    if(playing){
+        music.pause();
+        musicbutton.textContent="Music Off";
+    }
+    else{
+        music.play();
+        musicbutton.textContent="Music On";
+    } playing=!playing;
+});
 
